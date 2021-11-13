@@ -27,7 +27,5 @@
 	
 	<jsp:include page="/WEB-INF/views/layouts/layout-customer/_footer.jsp"></jsp:include>
 	
-	<jsp:include page="/WEB-INF/views/layouts/layout-customer/_footer.jsp"></jsp:include>
-	
 </body>
 </html>

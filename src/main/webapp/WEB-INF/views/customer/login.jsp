@@ -14,7 +14,7 @@
 			<img src="static/image/background-login.svg">
 		</div>
 		<div class="login-content">
-			<form action="/login" method="post">
+			<form action="${pageContext.request.contextPath}/login" method="post">
 				<img src="static/image/avatar.svg">
 				<h2 class="title">Maris</h2>
            		<div class="input-div one">
