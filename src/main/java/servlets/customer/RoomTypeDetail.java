@@ -1,4 +1,4 @@
-package servlets.admin;
+package servlets.customer;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class AdminHomeServlet
+ * Servlet implementation class RoomTypeDetail
  */
-@WebServlet("/admin")
-public class AdminHomeServlet extends HttpServlet {
+@WebServlet("/RoomTypeDetail")
+public class RoomTypeDetail extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public AdminHomeServlet() {
+    public RoomTypeDetail() {
         super();
         // TODO Auto-generated constructor stub
     }
